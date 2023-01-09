@@ -3,4 +3,4 @@ project(Algorithm)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(Algorithm Greedy/14464-소가길을건너간이유4.cpp)
+add_executable(Algorithm BFS/3197-백조의호수.cpp)

@@ -46,11 +46,11 @@ cmake_ninja_workdir = /Users/changgyoseo/Projects/Algorithm/cmake-build-debug/
 
 build cmake_object_order_depends_target_Algorithm: phony || CMakeFiles/Algorithm.dir
 
-build CMakeFiles/Algorithm.dir/Greedy/14464-소가길을건너간이유4.cpp.o: CXX_COMPILER__Algorithm_Debug /Users/changgyoseo/Projects/Algorithm/Greedy/14464-소가길을건너간이유4.cpp || cmake_object_order_depends_target_Algorithm
-  DEP_FILE = CMakeFiles/Algorithm.dir/Greedy/14464-소가길을건너간이유4.cpp.o.d
+build CMakeFiles/Algorithm.dir/BFS/3197-백조의호수.cpp.o: CXX_COMPILER__Algorithm_Debug /Users/changgyoseo/Projects/Algorithm/BFS/3197-백조의호수.cpp || cmake_object_order_depends_target_Algorithm
+  DEP_FILE = CMakeFiles/Algorithm.dir/BFS/3197-백조의호수.cpp.o.d
   FLAGS = -g -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu++14
   OBJECT_DIR = CMakeFiles/Algorithm.dir
-  OBJECT_FILE_DIR = CMakeFiles/Algorithm.dir/Greedy
+  OBJECT_FILE_DIR = CMakeFiles/Algorithm.dir/BFS
 
 
 # =============================================================================
@@ -60,7 +60,7 @@ build CMakeFiles/Algorithm.dir/Greedy/14464-소가길을건너간이유4.cpp.o: 
 #############################################
 # Link the executable Algorithm
 
-build Algorithm: CXX_EXECUTABLE_LINKER__Algorithm_Debug CMakeFiles/Algorithm.dir/Greedy/14464-소가길을건너간이유4.cpp.o
+build Algorithm: CXX_EXECUTABLE_LINKER__Algorithm_Debug CMakeFiles/Algorithm.dir/BFS/3197-백조의호수.cpp.o
   FLAGS = -g -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
   OBJECT_DIR = CMakeFiles/Algorithm.dir
   POST_BUILD = :
