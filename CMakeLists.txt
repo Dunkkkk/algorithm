@@ -3,4 +3,4 @@ project(Algorithm)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(Algorithm BFS/3197-백조의호수.cpp)
+add_executable(Algorithm Simulation/2933-미네랄.cpp)
