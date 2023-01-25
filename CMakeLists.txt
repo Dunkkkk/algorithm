@@ -3,4 +3,4 @@ project(Algorithm)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(Algorithm Simulation/2933-미네랄.cpp)
+add_executable(Algorithm DataStructure/2812-크게만들기.cpp)

@@ -46,11 +46,11 @@ cmake_ninja_workdir = /Users/changgyoseo/Projects/Algorithm/cmake-build-debug/
 
 build cmake_object_order_depends_target_Algorithm: phony || CMakeFiles/Algorithm.dir
 
-build CMakeFiles/Algorithm.dir/Simulation/2933-미네랄.cpp.o: CXX_COMPILER__Algorithm_Debug /Users/changgyoseo/Projects/Algorithm/Simulation/2933-미네랄.cpp || cmake_object_order_depends_target_Algorithm
-  DEP_FILE = CMakeFiles/Algorithm.dir/Simulation/2933-미네랄.cpp.o.d
+build CMakeFiles/Algorithm.dir/DataStructure/2812-크게만들기.cpp.o: CXX_COMPILER__Algorithm_Debug /Users/changgyoseo/Projects/Algorithm/DataStructure/2812-크게만들기.cpp || cmake_object_order_depends_target_Algorithm
+  DEP_FILE = CMakeFiles/Algorithm.dir/DataStructure/2812-크게만들기.cpp.o.d
   FLAGS = -g -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu++14
   OBJECT_DIR = CMakeFiles/Algorithm.dir
-  OBJECT_FILE_DIR = CMakeFiles/Algorithm.dir/Simulation
+  OBJECT_FILE_DIR = CMakeFiles/Algorithm.dir/DataStructure
 
 
 # =============================================================================
@@ -60,7 +60,7 @@ build CMakeFiles/Algorithm.dir/Simulation/2933-미네랄.cpp.o: CXX_COMPILER__Al
 #############################################
 # Link the executable Algorithm
 
-build Algorithm: CXX_EXECUTABLE_LINKER__Algorithm_Debug CMakeFiles/Algorithm.dir/Simulation/2933-미네랄.cpp.o
+build Algorithm: CXX_EXECUTABLE_LINKER__Algorithm_Debug CMakeFiles/Algorithm.dir/DataStructure/2812-크게만들기.cpp.o
   FLAGS = -g -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
   OBJECT_DIR = CMakeFiles/Algorithm.dir
   POST_BUILD = :
